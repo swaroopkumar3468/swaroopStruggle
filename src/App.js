@@ -246,7 +246,7 @@ class App extends Component {
                 {activeCategory === 'Fast Food' && !dish.dish_Availability && (
                   <p className="not-available">Not available</p>
                 )}
-                {activeCategory === 'Fast Food' && dish.addonCat.addons && (
+                {activeCategory === 'Fast Food' && dish.addonCat && (
                   <div>
                     <p className="not-available"> Customizations available</p>
                     <button
